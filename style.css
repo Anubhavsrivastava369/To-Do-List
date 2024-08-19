@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    text-align: center;
+    margin-bottom: 3rem;
+    color:rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    width: 60%;
+    background-color: white;
+    margin: 10px auto;
+    padding: 40px;
+    border-radius: 30px;
+}
+.input-block input{
+    width: 25vw;
+    height: 2rem;
+    outline: none;
+    border-radius:5px;
+    border: 0.3px solid grey;
+    padding: 3px 10px;
+    font-weight:300;    
+    font-size: medium;
+    border-radius: 20px;
+}
+.input-block button{
+    height: 2.5rem;
+    width: 4rem;
+    outline: none;
+    border-radius:20px;
+    border: none;
+    background-color: rgb(225, 162, 46);
+    color: white;
+    padding: 10px;
+    font-weight: 750;
+}
+button:hover{
+    background-color: rgb(186, 133, 34);
+    cursor: pointer;
+    transition: .2s linear;
+}
+ul{
+  width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+}
+li{
+    flex-wrap: wrap;
+    text-align:start;
+    width: 100%;    
+    list-style:none;
+    margin:0.5rem;
+    height: 30px;
+    background-color:whitesmoke;
+    border: 1.5px solid rgb(184, 171, 171);
+    border-radius: 5px;
+    color:black;
+    padding: 3px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+    border-radius: 20px;
+}
+li button{
+   float: right;
+   text-align: center;
+   padding: auto;
+   font-size: medium;
+   background-color: transparent;
+   border: none;
+   font-weight: 800;
+}
+li button:hover{
+    float: right;
+    text-align: center;
+    padding: auto;
+    font-size: medium;
+    background-color: transparent;
+    border: none;
+    font-weight: 800;
+ }
+li:hover{
+    background-color:rgb(232, 223, 223);
+
+}
+.Removebtn{
+    color:red;
+}
+.Editbtn{
+    color: green;
+}
